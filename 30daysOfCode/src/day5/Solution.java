@@ -1,0 +1,19 @@
+package day5;
+
+import java.util.Scanner;
+
+/**
+ * Created by himu on 3/3/2018.
+ */
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+
+
+        for(int i = 1; i  < 11; i++){
+            System.out.println(n +" x "+i+" = "+n*i);
+        }
+    }
+}
